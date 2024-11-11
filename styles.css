@@ -35,6 +35,18 @@ header .logo {
   height: auto; /* 高さは自動調整 */
 }
 
+/* ロゴ画像のスタイル */
+header .logo {
+  max-width: 200px;
+  height: auto;
+}
+
+/* 長方形の画像のスタイル */
+.top-banner {
+  text-align: center;
+  margin-top: 80px; /* ヘッダー分のスペースを確保 */
+}
+
 /* トップセクション */
 .hero {
   background: url('hero-background.jpg') no-repeat center center/cover;
