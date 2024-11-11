@@ -110,6 +110,11 @@ footer {
     max-width: 150px;
   }
 
+  .top-banner img {
+    width: 100%; /* 画像を横幅に合わせて調整 */
+    height: auto;
+  }
+
   .hero h2 {
     font-size: 1.5rem;
   }
