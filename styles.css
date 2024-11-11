@@ -1,0 +1,96 @@
+/*-----------------　リセット -----------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------------- ベーススタイル -----------------*/
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4; /* 薄いグレーの背景 */
+  margin-top: 80px; /* ヘッダーの高さ分の余白 */
+}
+
+/*----------------- ヘッダー固定スタイル -----------------*/
+header {
+  background-color: #ffffff; /* ヘッダーを白に */
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(111, 111, 111, 0.1); /* ヘッダーに影を追加 */
+  display: flex;
+  justify-content: center; /* ロゴを中央に配置 */
+  align-items: center;
+}
+
+/* ロゴ画像のスタイル */
+header .logo {
+  max-width: 300px; /* ロゴの最大幅を設定 */
+  height: auto; /* 高さは自動調整 */
+}
+
+/* トップセクション */
+.hero {
+  background: url('hero-background.jpg') no-repeat center center/cover;
+  color: #000000;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+/* サービスセクション */
+#services {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service {
+  margin: 1rem 0;
+}
+
+/* プロジェクト実績セクション */
+#projects {
+  padding: 2rem;
+  text-align: center;
+}
+
+#contact {
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+/* フォームスタイル */
+form label, form input, form textarea, form button {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+/*----------------- フッター -----------------*/
+
+footer {
+  background-color: white; /* 背景を白に */
+  color: black; /* テキストを黒に */
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid #00bf63; /* 境目に色をつける */
+}
+
+.footer-info {
+  margin: 0 auto;
+}
+
+.company-logo {
+  width: 481px;
+  height: 94px;
+}
