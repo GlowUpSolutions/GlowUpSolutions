@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<!------------- タブ設定 ------------->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +9,7 @@
   <link rel="icon" href="header.ico" type="image/x-icon">
 </head>
 
-<!------------- ページ内部 ------------->
-
 <body>
-    <!-- ヘッダー -->
     <header>
       <img src="Logo.jpeg" alt="GlowUpSolutions" class="logo">
     </header>
@@ -22,43 +18,52 @@
       <img src="First.png" alt="トップバナー画像" style="height: auto;">
     </div>
 
-    <!-- サービス紹介 -->
     <section id="services">
-        <h2>サービス内容</h2>
-        <div class="service">
-            <h3>クラウドサービス</h3>
-            <p>クラウド環境の導入から管理までを一括サポート</p>
-        </div>
-        <div class="service">
-            <h3>セキュリティ管理</h3>
-            <p>安心のセキュリティ体制でビジネスを守ります</p>
-        </div>
+      <h2>サービス内容</h2>
+
+      <!-- システムエンジニアサービス -->
+      <div class="service">
+        <img src="system-engineer.jpg" alt="システムエンジニアサービス" class="service-img">
+        <h3>システムエンジニア・サービス</h3>
+        <p>大手信託銀行・企業との信頼と実績の取引実績</p>
+      </div>
+
+      <!-- トラトリ -->
+      <div class="service tora-tori">
+        <img src="ToraTori.png" alt="トラトリ" class="service-img">
+        <h3>Webサービス</h3>
+        <p>ウェブサイト「トラトリ」の自社作成・運営</p>
+      </div>
+      
+      <!-- 勤タイム -->
+      <div class="service kin-time">
+        <img src="KinTiime.png" alt="勤タイム" class="service-img">
+        <h3>ソフト販売</h3>
+        <p>勤タイム・LoGetを自社作成・販売</p>
+      </div>
+      
     </section>
 
-    <!-- 実績 -->
     <section id="projects">
         <h2>プロジェクト実績</h2>
         <p>過去に手掛けたプロジェクトの一部を紹介します。</p>
-        <!-- 実績カードを追加していきます -->
     </section>
 
-    <!-- 会社概要 -->
     <section id="about">
         <h2>会社概要</h2>
         <p>所沢市を拠点に頑張ってます！</p>
     </section>
 
-    <!-- フッター -->
     <footer>
       <div class="footer-info">
         <img src="Logo.jpeg" alt="会社ロゴ" class="company-logo">
         <p>代表: 神田 正太郎</p>
         <p>電話番号: 080-5389-0507</p>
         <p>メール: glowupsolutions.0515@gmail.com</p>
-    </div>
-  </footer>
+      </div>
+    </footer>
 
+  <script src="scripts.js"></script>
 
-    <script src="script.js"></script>
 </body>
 </html>
