@@ -1,71 +1,169 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="google-site-verification" content="STXYcR7O3_G8aJ9BstyWh2p_rop5UaPGtJ3MHvxUFOg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlowUpSolutions</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="header.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<title>GlowUpSolutions | システムで、未来に価値を。</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GlowUpSolutionsは、システム開発・SES・観光地紹介事業を通じてお客様の課題を解決します。">
+<link rel="stylesheet" href="css/style.css">
 </head>
-
-
 <body>
-    <header>
-      <img src="Logo.jpeg" alt="GlowUpSolutions" class="logo">
-    </header>
 
-    <div class="top-banner">
-      <img src="First.png" alt="トップバナー画像" style="height: auto;">
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="GlowUpSolutions">
+    </a>
+    <nav class="nav-desktop">
+      <a href="index.html" class="current">ホーム</a>
+      <a href="services.html">サービス</a>
+      <a href="company.html">会社概要</a>
+      <a href="mailto:glowupsolutions.0515@gmail.com" class="btn btn-primary">お問い合わせ</a>
+    </nav>
+    <button class="hamburger" aria-label="メニュー">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile">
+    <a href="index.html">ホーム</a>
+    <a href="services.html">サービス</a>
+    <a href="company.html">会社概要</a>
+    <a href="mailto:glowupsolutions.0515@gmail.com" class="btn btn-primary">お問い合わせ</a>
+  </nav>
+</header>
+
+<section class="hero hero-image">
+  <picture>
+    <source media="(max-width: 720px)" srcset="assets/hero-mobile.png">
+    <img src="assets/hero-desktop.png" alt="GlowUpSolutions システムで、未来に価値を。">
+  </picture>
+</section>
+
+<section id="service">
+  <div class="container">
+    <div class="service-banner fade-in">
+      <img src="assets/service-hero.png" alt="サービス内容 SERVICE 私たちは、技術とアイデアで未来をつくる3つの事業を展開しています。">
     </div>
-
-    <section id="services">
-      <h2>サービス内容</h2>
-
-      <!-- システムエンジニアサービス -->
-      <div class="service">
-        <img src="Building.JPG" alt="ぐろーあっぷそりゅーしょんず" class="service-img">
-        <h3>システムエンジニア・サービス</h3>
-        <p>大手信託銀行・企業との信頼と実績の取引実績</p>
+    <div class="service-grid">
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <img src="assets/icon-dev.png" alt="システム開発アイコン">
+        </div>
+        <h3>システム開発事業</h3>
+        <p>業務の自動化や、<br>システム開発を行います。</p>
+        <a href="services.html#dev" class="link-arrow">詳しくみる →</a>
       </div>
-
-      <!-- トラトリ -->
-      <div class="service tora-tori">
-        <img src="ToraTori.png" alt="トラトリ" class="service-img">
-        <h3>Webサービス</h3>
-        <p>ウェブサイト「トラトリ」の自社作成・運営</p>
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <img src="assets/icon-ses.png" alt="SES事業アイコン">
+        </div>
+        <h3>SES事業</h3>
+        <p>お客様のプロジェクトを<br>技術面から支援します。</p>
+        <a href="services.html#ses" class="link-arrow">詳しくみる →</a>
       </div>
-      
-      <!-- 勤タイム -->
-      <div class="service kin-time">
-        <img src="KinTiime.png" alt="勤タイム" class="service-img">
-        <h3>ソフト販売</h3>
-        <p>勤タイムを自社作成・販売</p>
+      <div class="service-card fade-in">
+        <div class="service-icon">
+          <img src="assets/icon-tourism.png" alt="観光地紹介事業アイコン">
+        </div>
+        <h3>観光地紹介事業</h3>
+        <p>お客様のプロジェクトを<br>技術面から支援します。</p>
+        <a href="services.html#tourism" class="link-arrow">詳しくみる →</a>
       </div>
-      
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section id="projects">
-        <h2>プロジェクト実績</h2>
-        <p>過去に手掛けたプロジェクトの一部を紹介します。</p>
-    </section>
+<section class="about">
+  <div class="container">
+    <div class="section-head about-head fade-in">
+      <h2>私たちについて</h2>
+      <span class="en">ABOUT</span>
+      <div class="rule" style="margin-left:0;"></div>
+    </div>
+    <div class="fade-in">
+      <p>―THIS IS IT―「これこそが答えだ」と胸を張って言える仕事を。<br>
+      GlowUpSolutionsは、この理念を原点に、一つひとつのプロジェクトへ真摯に向き合います。</p>
+      <p>大企業で培った確かな技術力を中小企業の皆様へ還元し、<br>
+      「お願いしてよかった」と感じていただける<br>
+      システム開発サービスを提供いたします。</p>
+      <a href="company.html" class="btn btn-outline">会社概要を見る →</a>
+    </div>
+  </div>
+</section>
 
-    <section id="about">
-        <h2>会社概要</h2>
-        <p>所沢市を拠点に頑張ってます！</p>
-    </section>
-
-    <footer>
-      <div class="footer-info">
-        <img src="Logo.jpeg" alt="グローアップソリューションズ" class="company-logo">
-        <p>代表: 神田 正太郎</p>
-        <p>電話番号: 080-5389-0507</p>
-        <p>メール: glowupsolutions.0515@gmail.com</p>
+<section class="history" id="history">
+  <div class="container">
+    <div class="section-head fade-in">
+      <h2>沿革</h2>
+      <span class="en">HISTORY</span>
+      <div class="rule"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="year">2024年</div>
+        <p>GlowUpSolutionsを創業。<br>システム開発・Web制作を<br>中心に事業を開始</p>
       </div>
-    </footer>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="year">2025年</div>
+        <p>TikTok「たろ旅」のサービスを開始<br>旅行・観光メディアとして<br>TikTok「たろ旅」を開設</p>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="year">2026年</div>
+        <p>本社移転<br>事業拡大に伴い、<br>本社を移転</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <script src="scripts.js"></script>
+<section class="cta">
+  <div class="container cta-inner">
+    <div>
+      <h2>まずはお気軽にご相談ください</h2>
+      <p>お客様の課題やご希望をお聞かせください。<br>最適なソリューションをご提案いたします。</p>
+      <a href="mailto:glowupsolutions.0515@gmail.com" class="btn btn-primary">お問い合わせはこちら →</a>
+    </div>
+    <div class="cta-divider"></div>
+    <div class="cta-contact">
+      <div class="row">
+        <span class="icon">
+          <img src="assets/phone-icon.png" alt="電話アイコン">
+        </span>
+        <div>
+          <a href="tel:08053890507"><strong>080-5389-0507</strong></a>
+          <small>平日 9:00〜19:00</small>
+        </div>
+      </div>
+      <div class="row">
+        <span class="icon">
+          <img src="assets/mail-icon.png" alt="メールアイコン">
+        </span>
+        <div>
+          <a href="mailto:glowupsolutions.0515@gmail.com"><strong>glowupsolutions.0515@gmail.com</strong></a>
+          <small>24時間受付中</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<footer class="site-footer">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="GlowUpSolutions">
+    </a>
+    <nav class="footer-nav">
+      <a href="index.html">ホーム</a>
+      <a href="services.html">サービス</a>
+      <a href="company.html">会社概要</a>
+      <a href="index.html#history">沿革</a>
+    </nav>
+    <a href="mailto:glowupsolutions.0515@gmail.com" class="btn btn-primary">お問い合わせ</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
